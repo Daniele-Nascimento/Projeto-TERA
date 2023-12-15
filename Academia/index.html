@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academia Body&Mind</title>
+    <link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+    <div class="navbar show-menu">
+        <div class="header-inner-content">
+            <h1 class="logo">Body&Mind</h1>
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>Planos</li>
+                    <li>Sobre</li>
+                    <li>Estrutura</li>
+                    <li>Contato</li>
+                    
+                 </ul>
+            </nav>
+            <div class="nav-icon-container">
+                <img src="cart.png"/>
+                <img src="menu.png" class="menu-button"/>
+            </div>
+        </div>
+    </div>
+
+    <header>
+        <div class="header-inner-content">
+            <div class="header-bottom-side">
+                <div class="header-bottom-side-left">
+                    <h2>Cuidando do seu corpo e da sua mente!</h2>
+                    <p>
+                       Pequenas mudanças, fazem toda a diferença! 
+                    </p>
+
+                    <button>Conheça!</button>
+                </div>
+                <div class="header-bottom-side-right">
+                    <img src="fundo da tela inicial.png" alt="" />
+                </div>
+            </div>    
+        </div>
+    </header>
+
+    <!--Main content-->
+    <main>
+        <h3 class="section-title">Estrutura</h3>
+        <div class="gray-background">
+            <div class="page-inner-content">
+                <div class="subtitle-underline"></div>
+                <div class="cols cols-3">
+                    <img src="estruturaUM.jpg" alt="" />
+                    <img src="estruturaDOIS.jpg" alt="" />
+                    <img src="estruturaTRES.jpg" alt="" />
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div class="page-inner-content">
+                <h3 class="section-title">Planos</h3>
+                <div class="subtitle-underline"></div>
+                <div class="cols cols-4">
+                    <div class="plano">
+                        <img src="plano mensal laranja.webp" alt="" />
+                        <p>Plano Mensal Cardio + Musculação</p>
+                    </div>
+                    <div class="plano">
+                        <img src="plano anual laranja.webp" alt="" />
+                        <p>Plano Anual Cardio + Musculação</p>
+                    </div>
+                    <div class="plano">
+                        <img src="plano mensal azul.webp" alt="" />
+                        <p>Plano Mensal Cardio + Musculação + Natação</p>
+                    </div>
+                    <div class="plano">
+                        <img src="plano anual.webp" alt="" />
+                        <p>Plano Anual Cardio + Musculação + Natação</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        const navbar = document.querySelector(".navbar");
+        const menuButton = document.querySelector(".menu-button");
+
+        menuButton.addEventListener('click', () =>{
+            navbar.classList.toggle("show-menu");
+
+        });
+
+    </script>
+  </body>
+</html>
