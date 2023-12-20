@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Academia Body&Mind</title>
     <link rel="stylesheet" href="css/main.css" />
+    <script type="text/javascript" src="arquivo.js"> </script>
 </head>
 <body>
     <div class="navbar show-menu">
@@ -14,12 +15,24 @@
                 <ul>
                     <li>Home</li>
                     <li>Planos</li>
-                    <li>Sobre</li>
                     <li>Estrutura</li>
                     <li>Contato</li>
                     
                  </ul>
             </nav>
+
+            <div>
+                <label for="username">Email:</label>
+                <input type="text" id="username" name="username" />
+              </div>
+              
+              <div>
+                <label for="pass">Senha:</label>
+                <input type="password" id="pass" name="password" minlength="8" required />
+              </div>
+              
+              <input type="submit" value="ENTRAR" />
+
             <div class="nav-icon-container">
                 <img src="cart.png"/>
                 <img src="menu.png" class="menu-button"/>
@@ -35,8 +48,8 @@
                     <p>
                        Pequenas mudanças, fazem toda a diferença! 
                     </p>
+                    <button>Conheça nossos planos!</button>
 
-                    <button>Conheça!</button>
                 </div>
                 <div class="header-bottom-side-right">
                     <img src="fundo da tela inicial.png" alt="" />
@@ -45,16 +58,21 @@
         </div>
     </header>
 
-    <!--Main content-->
     <main>
+
         <h3 class="section-title">Estrutura</h3>
+        <div class="subtitle-underline"></div>
+        <br></br>
         <div class="gray-background">
             <div class="page-inner-content">
-                <div class="subtitle-underline"></div>
                 <div class="cols cols-3">
                     <img src="estruturaUM.jpg" alt="" />
                     <img src="estruturaDOIS.jpg" alt="" />
                     <img src="estruturaTRES.jpg" alt="" />
+                    <img src="estruturaQUATRO.jpg" alt="" />
+                    <img src="estruturaCINCO.jpg" alt="" />
+                    <img src="estruturaSEIS.jpg" alt="" />
+
                 </div>
             </div>
         </div>
@@ -66,29 +84,67 @@
                 <div class="cols cols-4">
                     <div class="plano">
                         <img src="plano mensal laranja.webp" alt="" />
-                        <p>Plano Mensal Cardio + Musculação</p>
+                        <br> </br>
+                        <p>O Plano Mensal, inclui:</p>
+                        <br> </br>
+                        <li>
+                            Acesso às aulas de Cardio (pré determinadas, através de calendário oficial).
+                        </li>
+                        <br> </br>
+                        <li>
+                            Acesso a sala de Musculação + um treino individual + personal no local auxiliando os alunos.
+                        </li>
                     </div>
                     <div class="plano">
                         <img src="plano anual laranja.webp" alt="" />
-                        <p>Plano Anual Cardio + Musculação</p>
-                    </div>
-                    <div class="plano">
-                        <img src="plano mensal azul.webp" alt="" />
-                        <p>Plano Mensal Cardio + Musculação + Natação</p>
-                    </div>
-                    <div class="plano">
-                        <img src="plano anual.webp" alt="" />
-                        <p>O Plano Anual inclui:</p>
+                        <br> </br>
+                        <p>O Plano Anual, inclui:</p>
                         <br> </br>
                         <ul>
                             <li>
-                                Acesso a sala de Musculação + um treino individual + personal no local auxiliando os alunos!
+                                Acesso às aulas de Cardio (pré determinadas, através de calendário oficial).
                             </li>
+                            <br> </br>
                             <li>
-                                Acesso às aulas de Cardio (pré determinadas, através de calendário oficial)
+                                Acesso a sala de Musculação + um treino individual + personal no local auxiliando os alunos.
                             </li>
+                            <br> </br>
                             <li>
-                                Acesso às aulas de Natação (ou Hidro)!
+                                Acesso às aulas de Natação/Hidro + bônus de Exames Médicos.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="plano">
+                        <img src="plano mensal azul.webp" alt="" />
+                        <br> </br>
+                        <p>O Plano Mensal, inclui:</p>
+                        <br> </br>
+                        <ul>
+                            <li>
+                                Acesso a sala de Musculação + um treino individual + personal no local auxiliando os alunos.
+                            </li>
+                            <br> </br>
+                            <li>
+                                Acesso às aulas de Cardio (pré determinadas, através de calendário oficial).
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="plano">
+                        <img src="plano anual.webp" alt="" />
+                        <br> </br>
+                        <p>O Plano Anual, inclui:</p>
+                        <br> </br>
+                        <ul>
+                            <li>
+                                Acesso a sala de Musculação + um treino individual + personal no local auxiliando os alunos.
+                            </li>
+                            <br> </br>
+                            <li>
+                                Acesso às aulas de Cardio (pré determinadas, através de calendário oficial).
+                            </li>
+                            <br> </br>
+                            <li>
+                                Acesso às aulas de Natação/Hidro + bônus de Exames Médicos.
                             </li>
                         </ul>
                     </div>
@@ -96,6 +152,27 @@
             </div>
         </div>
     </main>
+
+    <footer class="gray-background">
+        <div class="page-inner-content footer-content">
+            <br></br
+           
+            <div class="logo-footer">
+                <h1 class="logo">Body&Mind</h1>
+                <br></br>
+            </div>
+            
+        </div>
+
+        <div class="page-inner-content copyright">
+            <p> CNPJ 12.345.678/0000-01 - Endereço: Alameda Santos, 1515 - Jardins</p>
+            <p> Telefone: (11) 97304-2891 </p>
+            <br> </br>
+            <p> Copyright© 2023 Desenvolvido por Daniele Nascimento - Todos os direitos reservados </p>
+            
+            
+        </div>
+    </footer>
 
     <script>
         const navbar = document.querySelector(".navbar");
@@ -107,5 +184,5 @@
         });
 
     </script>
-  </body>
+  </body>      
 </html>
